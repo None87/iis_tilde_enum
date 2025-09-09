@@ -1,35 +1,61 @@
+# Python
 *.py[cod]
-
-# C extensions
 *.so
-
-# Packages
+__pycache__/
 *.egg
 *.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
 .installed.cfg
-__pycache__
 
-# Installer logs
+# Development and temporary files
+dev/
+*.pyc
+*.pyo
+*.pyd
+.Python
 pip-log.txt
-
-# Unit test / coverage reports
 .coverage
 .tox
 nosetests.xml
-output
+.pytest_cache/
+
+# Generated dictionaries and test files
+generated_wordlist.txt
+*_dict.txt
+test_dict.txt
+final_test.txt
+
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and output
+*.log
+output/
+results/
 
 # Translations
 *.mo
 
-# Mr Developer
+# Configuration
 .mr.developer.cfg
 .project
 .pydevproject

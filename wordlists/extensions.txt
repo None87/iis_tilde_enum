@@ -18,6 +18,7 @@ class
 com
 config
 cs
+css
 cshtml
 csproj
 dtd
@@ -39,6 +40,7 @@ html
 htpasswd
 inc
 ini
+js
 java
 jhtml
 jnlp
@@ -61,6 +63,7 @@ model
 mpeg
 nsf
 old
+png
 php
 php3
 php4
